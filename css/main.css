@@ -131,9 +131,6 @@ body {
     list-style-type: none;
 }
 
-/* .menu_list {
-} */
-
 .menu_link {
     text-decoration: none;
     color: #222222;
@@ -144,6 +141,96 @@ body {
     text-transform: uppercase;
     display: block;
     padding: 20px 25px;
+}
+
+.menu_list {
+    position: relative;
+}
+
+.menu_list:hover .mega_box {
+    display: flex;
+}
+
+.last:hover .mega_box {
+    right: 0;
+}
+
+.last:hover .mega_box::before {
+    right: 43px;
+    top: -7px;
+    left: unset;
+}
+
+.menu_item {
+    margin-right: 46px;
+}
+
+.menu_item:last-of-type {
+    margin-right: 0;
+}
+
+.menu_item__heading {
+    color: #232323;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e8e8e8;
+    width: 235px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.menu_item__under_heading {
+    margin-top: 13px;
+}
+
+/* Не понял как нормально выставить картинку эту, сделал просто марджином */
+
+.mega_box_img {
+    margin-top: 19px;
+}
+
+/* Не знаю кому именно задать транзишн, что бы плавно появлалась */
+
+.mega_box {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    position: absolute;
+    padding: 20px;
+    z-index: 1000;
+    display: none;
+    top: 53px;
+}
+
+.mega_box::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #e8e8e8;
+    position: absolute;
+    top: -7px;
+    left: 33px;
+    transform: rotate(45deg);
+}
+
+.mega_link {
+    display: block;
+    color: #646464;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.mega_link:hover {
+    color: #f16d7f;
 }
 
 /* SECTION BANNER */
