@@ -20,23 +20,58 @@
         <div class="container">
             <div class="header_wrap">
                 <div class="header_left">
-                    <a href="#" class="logo_link">
+                    <a href="index.html" class="logo_link">
                         <img src="img/Logo.png" alt="brand" class="logo">
                         <p class="logo_name">bran<span class="logo_name__span">d</span></p>
                     </a>
-                    <form action="#" class="header_left__form">
-                        <div>Browse</div>
-                        <input type="text" class="header_left__input">
-                        <button class="form_btn" type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
+                    <details class="browse">
+                        <summary class="browse__title">Browse <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </summary>
+                        <div class="browse__menu">
+                            <p class="browse__menu-title">Women</p>
+                            <a class="browse__item" href="product.html">Dresse</a>
+                            <a class="browse__item" href="product.html">Tops</a>
+                            <a class="browse__item" href="product.html">Sweaters/Knits</a>
+                            <a class="browse__item" href="product.html">Jackets/Coats</a>
+                            <a class="browse__item" href="product.html">Blazers</a>
+                            <a class="browse__item" href="product.html">Denim</a>
+                            <a class="browse__item" href="product.html">Leggings/Pants</a>
+                            <a class="browse__item" href="product.html">Skirts/Shorts</a>
+                            <a class="browse__item" href="product.html">Accessories</a>
+                            <p class="browse__menu-title">Men</p>
+                            <a class="browse__item" href="product.html">Tees/Tank tops</a>
+                            <a class="browse__item" href="product.html">Shirts/Polos</a>
+                            <a class="browse__item" href="product.html">Sweaters</a>
+                            <a class="browse__item" href="product.html">Sweatshirts/Hoodies</a>
+                            <a class="browse__item" href="product.html">Blazers</a>
+                            <a class="browse__item" href="product.html">Jackets/Vests</a>
+                        </div>
+                    </details>
+
+                    <form action="#" class="search">
+                        <input class="search__input" type="text" placeholder="Search for Item...">
+                        <button class="search__btn" type="submit"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
                     </form>
                 </div>
                 <div class="header_right">
-                    <img src="img/cart.svg" alt="cart" class="header_right__img">
-                    <a href="#" class="btn my_acc">
-                        My Account <i class="fas fa-caret-down"></i>
-                    </a>
+                    <details class="basket">
+                        <summary class="basket__title">
+                            <img src="img/cart.svg" alt="basket">
+                        </summary>
+                        <div class="basket__menu">
+                            <div class="basket__price">
+                                <p>total</p>
+                                <p>$00.00</p>
+                            </div>
+                            <a href="checkout.html" class="basket__check">checkout</a>
+                            <a href="shopping_cart.html" class="basket__cart">go to cart</a>
+                        </div>
+                    </details>
+                    <details class="account">
+                        <summary class="account__title">My Account <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        </summary>
+                    </details>
                 </div>
             </div>
         </div>
@@ -45,40 +80,75 @@
         <div class="container">
             <ul class="menu">
                 <li class="menu_list">
-                    <a href="#" class="menu_link">Home</a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_link">Man</a>
+                    <a href="index.html" class="menu_link">Home</a>
                     <div class="mega_box">
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
-                            <a class="mega_link" href="#">Blazers</a>
-                            <a class="mega_link" href="#">Denim</a>
-                            <a class="mega_link" href="#">Leggins/Pants</a>
-                            <a class="mega_link" href="#">Skirts/Shorts</a>
-                            <a href="#" class="mega_link">Accessories</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
                         </div>
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
                             <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
                         </div>
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <div class="mega_box_img">
+                                <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a href="product.html" class="menu_link">Man</a>
+                    <div class="mega_box">
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
                             <div class="mega_box_img">
                                 <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
                             </div>
@@ -87,48 +157,188 @@
                 </li>
                 <li class="menu_list">
                     <a href="" class="menu_link">Women</a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_link">Kids</a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_link">Accoseriese</a>
-                </li>
-                <li class="menu_list">
-                    <a href="#" class="menu_link">Featured</a>
-                </li>
-                <li class="menu_list last">
-                    <a href="#" class="menu_link">Hot Deals</a>
                     <div class="mega_box">
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
-                            <a class="mega_link" href="#">Blazers</a>
-                            <a class="mega_link" href="#">Denim</a>
-                            <a class="mega_link" href="#">Leggins/Pants</a>
-                            <a class="mega_link" href="#">Skirts/Shorts</a>
-                            <a href="#" class="mega_link">Accessories</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
                         </div>
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
                             <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
                         </div>
                         <div class="menu_item">
                             <h3 class="menu_item__heading">Women</h3>
-                            <a class="mega_link" href="#">Dresses</a>
-                            <a class="mega_link" href="#">Tops</a>
-                            <a class="mega_link" href="#">Sweaters/Knits</a>
-                            <a class="mega_link" href="#">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <div class="mega_box_img">
+                                <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a href="product.html" class="menu_link">Kids</a>
+                    <div class="mega_box">
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <div class="mega_box_img">
+                                <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list last">
+                    <a href="product.html" class="menu_link">Accoseriese</a>
+                    <div class="mega_box">
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <div class="mega_box_img">
+                                <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list last">
+                    <a href="product.html" class="menu_link">Featured</a>
+                    <div class="mega_box">
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <div class="mega_box_img">
+                                <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list last">
+                    <a href="product.html" class="menu_link">Hot Deals</a>
+                    <div class="mega_box">
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <a class="mega_link" href="product.html">Blazers</a>
+                            <a class="mega_link" href="product.html">Denim</a>
+                            <a class="mega_link" href="product.html">Leggins/Pants</a>
+                            <a class="mega_link" href="product.html">Skirts/Shorts</a>
+                            <a href="product.html" class="mega_link">Accessories</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
+                            <h3 class="menu_item__heading menu_item__under_heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                        </div>
+                        <div class="menu_item">
+                            <h3 class="menu_item__heading">Women</h3>
+                            <a class="mega_link" href="product.html">Dresses</a>
+                            <a class="mega_link" href="product.html">Tops</a>
+                            <a class="mega_link" href="product.html">Sweaters/Knits</a>
+                            <a class="mega_link" href="product.html">Jackets/Coats</a>
                             <div class="mega_box_img">
                                 <img src="img/Super-sale.jpg" alt="super-sale" class="img_item">
                             </div>
@@ -138,19 +348,20 @@
             </ul>
         </div>
     </nav>
-    <section class="sec_breadcrumb" id="sec_breadcrumb">
-        <div class="container">
-            <div class="breadcrumbs_wrap">
-                <h2 class="breadcrumb_heading">New arrivals</h2>
-                <div class="breadcrumb">
-                    <p class="brcr_txt">
-                        <!-- Сделаю пока обычным текстом, не ссылками -->
-                        Home/men/<span class="brcr_txt__span">New Arrivals</span>
-                    </p>
-                </div>
+    <div class="crumbs">
+        <div class="container crumbs__wrapper">
+            <div class="crumbs__title">
+                New Arrivals
             </div>
+            <nav class="crumbs__path">
+                <ul class="crumbs__list">
+                    <li class="crumbs__item"><a href="index.html" class="crumbs__link">home</a></li>
+                    <li class="crumbs__item"><a href="#" class="crumbs__link">men</a></li>
+                    <li class="crumbs__item crumbs__item-current">New Arrivals</li>
+                </ul>
+            </nav>
         </div>
-    </section>
+    </div>
     <section class="sec_check" id="sec_check">
         <div class="container">
             <div class="checks_wrap">
